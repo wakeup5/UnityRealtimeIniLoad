@@ -3,15 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StringConverter<T> : IStringConverter<T> where T : IConvertible
+namespace Waker.Configurations
 {
-	public T ConvertTo(string value)
+	public class StringConverter<T> : IStringConverter<T> where T : IConvertible
 	{
-		return (T)Convert.ChangeType(value, typeof(T));
-	}
+		public T ConvertTo(string value)
+		{
+			return (T)Convert.ChangeType(value, typeof(T));
+		}
 
-	public string ToString(T obj)
-	{
-		return obj.ToString();
+		public string ToString(T obj)
+		{
+			return obj.ToString();
+		}
 	}
 }

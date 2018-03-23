@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IStringConverter<T>
+namespace Waker.Configurations
 {
-	string ToString(T obj);
-	T ConvertTo(string value);
+	public interface IStringConverter<T>
+	{
+		string ToString(T obj);
+		T ConvertTo(string value);
+	}
 }

@@ -1,19 +1,22 @@
 ﻿using System;
 
-public class CannotModifiedException : Exception
+namespace Waker.Configurations
 {
-	public CannotModifiedException()
-		: base()
+	public class CannotModifiedException : Exception
 	{
-	}
+		public CannotModifiedException()
+			: base()
+		{
+		}
 
-	public CannotModifiedException(string message)
-		: base(message)
-	{
-	}
+		public CannotModifiedException(string message)
+			: base(message)
+		{
+		}
 
-	public CannotModifiedException(string message, Exception innerException)
-		: base(message, innerException)
-	{
+		public CannotModifiedException(string message, Exception innerException)
+			: base(message, innerException)
+		{
+		}
 	}
 }
