@@ -13,9 +13,7 @@ private void Update()
 ```
 
 ## 타입 확장 가능
-```
-
-```
+[Vector3 확장](https://github.com/wakeup5/Unity-realtime-ini-load/blob/master/Waker/Realtime-Load-Ini/Scripts/Types/Vector3Config.cs)
 
 ## IniFile
 [https://stackoverflow.com/questions/217902/reading-writing-an-ini-file#answer-14906422](https://stackoverflow.com/questions/217902/reading-writing-an-ini-file#answer-14906422)
