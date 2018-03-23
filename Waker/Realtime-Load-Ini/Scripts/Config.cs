@@ -36,7 +36,7 @@ namespace Waker.Configurations
 		private IStringConverter<T> converter = new C();
 
 		private IniFile ini;
-		private FileSystemWatcher watcher;
+		private FileSystemWatcher watcher; 
 
 		public Config(string path, string file, string section, string key, T @default)
 		{
