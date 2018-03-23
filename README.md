@@ -5,7 +5,8 @@ Ini 파일 위치 및 이름, 섹션, 키를 Inspector창에서 설정 가능합
 ## 사용방법
 ```
 [SerializeField]
-private Vector3Config rotation = new Vector3Config("./Config", "Tutorial.ini", "Cylinder", "Rotation", new Vector3());
+private Vector3Config rotation 
+	= new Vector3Config("./Config", "Tutorial.ini", "Cylinder", "Rotation", new Vector3());
 
 private void Update()
 {
